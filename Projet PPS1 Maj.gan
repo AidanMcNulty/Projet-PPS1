@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet PPS Mise à jour" company="" webLink="http://" view-date="2024-09-26" view-index="0" gantt-divider-location="433" resource-divider-location="300" version="3.3.3309" locale="fr_FR">
+    <description><![CDATA[Écheancier mise à jour pour la conception et réalisation d’un dispositif de mesure et d’affichage de la température et de l'humidité connecté à internet (Cloud)]]></description>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="237" order="0"/>
+        <field id="tpd4" name="Date de début" width="90" order="1"/>
+        <field id="tpd5" name="Date de fin" width="90" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#3300ff #33ff00]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="e12369fcf08f4c6381a03180bda0aa5f" name="Début du projet" color="#3300ff" meeting="true" start="2024-10-03" duration="0" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="ef058a94f1484a9faffb6e760bdf4e08" name="Cahier des charges" color="#33ff00" meeting="false" start="2024-10-03" duration="1" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="ef2669f4dee4477abb0ff71782bb7a3e" name="Signature du cahier des charges" color="#3300ff" meeting="true" start="2024-10-04" duration="0" complete="0" expand="true"/>
+        <task id="3" uid="64fe430fb32a4b809f01ca1cbaf4c3c9" name="Montage test sur plaquette d'essaie" color="#33ff00" meeting="false" start="2024-10-04" duration="4" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="9bcdf997e7e04b89945be0ff262c9a3c" name="Programation d'un code de test du capteur" color="#33ff00" meeting="false" start="2024-10-04" duration="4" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="66d28fc5a2b741d496eec74981be456f" name="Diagramme schématique" color="#33ff00" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <depend id="8" type="2" difference="9" hardness="Strong"/>
+        </task>
+        <task id="7" uid="2ce9b7e7590e4e2ba05ad8fadeb7e442" name="Cloud" color="#33ff00" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <depend id="13" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="13" uid="99dcaf067b5e4f0a89edad40cb025482" name="Programme final" color="#33ff00" meeting="false" start="2024-10-10" duration="1" complete="0" expand="true">
+            <depend id="14" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="14" uid="bee68d83b4ec4f0c8a40db49d55644aa" name="Test du programme final avec cloud" color="#3300ff" meeting="true" start="2024-10-10" duration="0" complete="0" expand="true"/>
+        <task id="6" uid="857043ebc072414685a1b2362057b13a" name="Diagramme Fonctionnel" color="#33ff00" meeting="false" start="2024-10-17" duration="1" complete="0" expand="true"/>
+        <task id="9" uid="1a016815e1a34abea178883d87b14b47" name="Alimentation avec batteries" color="#33ff00" meeting="false" start="2024-10-17" duration="10" complete="0" expand="true"/>
+        <task id="8" uid="6b7c40a4b7ca46e3895d6af447756bc1" name="Diagramme Matriciel" color="#33ff00" meeting="false" start="2024-10-24" duration="5" complete="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="79cbca8d9cd94e0888290cd34e6963a7" name="Conception boitier 3D" color="#33ff00" meeting="false" start="2024-10-31" duration="1" complete="0" expand="true">
+            <depend id="16" type="2" difference="1" hardness="Strong"/>
+        </task>
+        <task id="15" uid="4f8cca56b0da4916b1609329ef794fd8" name="Impression du PCB" color="#3300ff" meeting="true" start="2024-10-31" duration="0" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="c092ff7a7b7f464a8c9f26be36358de5" name="Percage et soudure du PCB" color="#33ff00" meeting="false" start="2024-10-31" duration="5" complete="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="5db4ec6775814050bdff12f406e836f1" name="Impression du boitier 3D" color="#3300ff" meeting="true" start="2024-11-04" duration="0" complete="0" expand="true">
+            <depend id="12" type="2" difference="3" hardness="Strong"/>
+        </task>
+        <task id="12" uid="2b3d51c1fdca49d389852be7fa97b7c5" name="Assemblage PCB et alimentation dans le boitier 3D" color="#33ff00" meeting="false" start="2024-11-07" duration="1" complete="0" expand="true">
+            <depend id="17" type="2" difference="-1" hardness="Strong"/>
+        </task>
+        <task id="17" uid="22aa6161e2904ed393fd35cd63821133" name="Démonstration du projet en classe" color="#3300ff" meeting="true" start="2024-11-07" duration="0" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Aidan" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Alexandre" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Xavier" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Nathan" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="1" resource-id="0" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:0" responsible="true" load="50.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:0" responsible="true" load="25.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="4" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="13" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="11" resource-id="1" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="2" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="12" resource-id="2" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="1" resource-id="3" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="5" resource-id="3" function="Default:0" responsible="false" load="50.0"/>
+        <allocation task-id="9" resource-id="3" function="Default:0" responsible="false" load="25.0"/>
+        <allocation task-id="10" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="3" function="Default:0" responsible="false" load="25.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
